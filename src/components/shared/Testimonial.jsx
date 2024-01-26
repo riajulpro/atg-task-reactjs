@@ -1,4 +1,6 @@
 import { Card, Col, Container, Image, Row, Stack } from "react-bootstrap";
+import { FaRegPlayCircle } from "react-icons/fa";
+import { BiSolidQuoteAltLeft } from "react-icons/bi";
 
 const Testimonial = () => {
   return (
@@ -6,7 +8,9 @@ const Testimonial = () => {
       <Container>
         <Card className="mb-2" style={{ backgroundColor: "#f7fdff" }}>
           <Card.Body>
-            <Card.Title>icon Testimonial</Card.Title>
+            <Card.Title>
+              <BiSolidQuoteAltLeft /> Testimonial
+            </Card.Title>
             <Card.Text>
               In a fast growing and ever changing city like Bangalore, it
               sometimes becomes very difficult to find or connect with like
@@ -23,11 +27,13 @@ const Testimonial = () => {
             <Row>
               <Col sm={7}>
                 <Stack direction="horizontal" gap={3}>
-                  <div className="p-2">First item</div>
-                  <div className="p-2">Second item</div>
+                  <div className="p-2">
+                    <FaRegPlayCircle />
+                  </div>
+                  <div className="p-2"></div>
                   <div className="p-2">
                     <Image
-                      src="/public/assets/profile.png"
+                      src="https://i.ibb.co/Tc4QdST/profile.png"
                       className="w-50 h-50"
                     />
                   </div>
@@ -36,7 +42,7 @@ const Testimonial = () => {
               <Col sm={5}>
                 <Stack direction="horizontal" gap={3}>
                   <div className="p-2">
-                    <Image src="/public/assets/profile.png" />
+                    <Image src="https://i.ibb.co/Tc4QdST/profile.png" />
                   </div>
                   <div className="p-2">
                     <h4 className="text-primary">Shubha Nagarajan</h4>

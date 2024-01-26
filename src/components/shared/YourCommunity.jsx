@@ -1,4 +1,5 @@
 import { Container, Image, Stack } from "react-bootstrap";
+import { IoIosArrowDropup } from "react-icons/io";
 
 const YourCommunity = () => {
   return (
@@ -10,7 +11,12 @@ const YourCommunity = () => {
             <span className="text-primary">Community</span>
           </h1>
           <div className="ms-auto">
-            <a href={"#top"}>Go to top</a>
+            <a href={"#top"}>
+              <Stack direction="vertical" gap={2}>
+                <IoIosArrowDropup className="w-25 h-25" />
+                <span className="text-sm-start">Go to top (Ctrl+Home)</span>
+              </Stack>
+            </a>
           </div>
         </Stack>
         <div>
