@@ -14,8 +14,8 @@ const YourCommunity = () => {
           </div>
         </Stack>
         <div>
-          <Image src="/public/assets/left-2.png" />
-          <Image src="/public/assets/right-2.png" />
+          <Image src="https://i.ibb.co/pXHjXX4/left-2.png" />
+          <Image src="https://i.ibb.co/QHSnYXR/right-2.png" />
         </div>
       </Container>
     </div>

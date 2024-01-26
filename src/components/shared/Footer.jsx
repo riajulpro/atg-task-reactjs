@@ -7,6 +7,14 @@ import {
   Row,
   Stack,
 } from "react-bootstrap";
+import { IoMdMail } from "react-icons/io";
+import { FaTelegram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaGooglePlus } from "react-icons/fa6";
+import { IoLogoPinterest } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -58,14 +66,14 @@ const Footer = () => {
           <Col sm={4}>
             <b>Social Media</b>
             <Stack direction="horizontal" gap={2}>
-              <i>F</i>
-              <i>T</i>
-              <i>I</i>
-              <i>P</i>
-              <i>G</i>
-              <i>Y</i>
-              <i>T</i>
-              <i>M</i>
+              <FaFacebook />
+              <AiFillTwitterCircle />
+              <FaInstagram />
+              <IoLogoPinterest />
+              <FaGooglePlus />
+              <FaYoutube />
+              <FaTelegram />
+              <IoMdMail />
             </Stack>
             <div className="mt-5">
               <b>Invite Friends</b>

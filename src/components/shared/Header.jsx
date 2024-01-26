@@ -3,13 +3,17 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { IoMdBookmark } from "react-icons/io";
+import { IoNotifications } from "react-icons/io5";
+import { FaCartShopping } from "react-icons/fa6";
+import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
   return (
     <Navbar id="top" collapseOnSelect expand="lg" className="bg-body-light">
       <Container>
         <Navbar.Brand href="#home">
-          <Image src="../../../public/assets/logo.png" />
+          <Image src="https://i.ibb.co/rM0T3Kf/logo.png" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -20,7 +24,7 @@ const Header = () => {
               aria-describedby="basic-addon2"
             />
             <Button variant="primary" id="button-addon2">
-              S
+              <CiSearch />
             </Button>
           </InputGroup>
           <Nav className="ms-auto">
@@ -52,12 +56,14 @@ const Header = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#bookmark">B</Nav.Link>
+            <Nav.Link href="#bookmark">
+              <IoMdBookmark />
+            </Nav.Link>
             <Nav.Link eventKey={2} href="#notification">
-              N
+              <IoNotifications />
             </Nav.Link>
             <Nav.Link eventKey={2} href="#cart">
-              C
+              <FaCartShopping />
             </Nav.Link>
             <Button variant="outline-primary" size="sm" className="px-4">
               Sign In

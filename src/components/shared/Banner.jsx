@@ -34,8 +34,8 @@ const Banner = () => {
               promote yourself, your students, products, services or events. Hop
               on your hobbyhorse and enjoy the ride.
             </p>
-            <Image src="/public/assets/left-1.png" />
-            <Image src="/public/assets/right-1.png" />
+            <Image src="https://i.ibb.co/8XsWDYj/left-1.png" />
+            <Image src="https://i.ibb.co/3MTLf36/right-1.png" />
           </Col>
           <Col sm={4}>
             <Tabs
