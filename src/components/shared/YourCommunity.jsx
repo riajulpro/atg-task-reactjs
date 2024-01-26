@@ -1,4 +1,4 @@
-import { Container, Image, Stack } from "react-bootstrap";
+import { Button, Container, Image, Stack } from "react-bootstrap";
 import { IoIosArrowDropup } from "react-icons/io";
 
 const YourCommunity = () => {
@@ -6,10 +6,13 @@ const YourCommunity = () => {
     <div style={{ backgroundColor: "#f7fdff" }}>
       <Container className="py-5">
         <Stack direction="horizontal" gap={3} className="mb-5">
-          <h1>
-            Your <span className="text-primary">Hobby</span>, your{" "}
-            <span className="text-primary">Community</span>
-          </h1>
+          <div>
+            <h1>
+              Your <span className="text-primary">Hobby</span>, your{" "}
+              <span className="text-primary">Community</span>
+            </h1>
+            <Button variant="primary">Get Started</Button>
+          </div>
           <div className="ms-auto">
             <a href={"#top"}>
               <Stack direction="vertical" gap={2}>
